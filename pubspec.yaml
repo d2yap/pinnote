@@ -1,0 +1,41 @@
+name: pinnote
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  firebase_core: ^4.6.0
+  flutter_bloc: ^8.1.5
+  firebase_auth: ^6.3.0
+  firebase_ui_auth: ^3.0.1
+  geolocator: ^14.0.2
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^6.2.0
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+  geoflutterfire_plus: ^0.0.34
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/earth.png
+    - assets/img/banner.png
+    - assets/profile/dragon.gif
+    - assets/profile/duck.gif
+    - assets/profile/human.gif
+    - assets/profile/hyena.gif
+    - assets/profile/robot.gif
+    - assets/profile/cat.gif
+  fonts:
+    - family: Clash
+      fonts:
+        - asset: assets/fonts/ClashDisplay-Variable.ttf
