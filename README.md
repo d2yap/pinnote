@@ -13,6 +13,8 @@ PinNote is a Flutter app for creating and browsing map-based pins.
 - A device/emulator available (Android, iOS, web, or desktop)
 - Firebase (needed for note location tracking/user authentication)
 
+> Use the FlutterFireCLI found here. https://firebase.google.com/docs/flutter/setup?platform=android
+
 ### First-time setup
 
 1. Get dependencies:
